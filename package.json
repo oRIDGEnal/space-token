@@ -1,0 +1,21 @@
+{
+  "name": "space-token",
+  "version": "1.0.0",
+  "description": "SpaceToken (SCTX) is a meme cryptocurrency designed to celebrate and unite space enthusiasts and community members in Space City, Texas. It leverages blockchain technology to create a fun, engaging, and community-driven token for transactions, rewards, and community engagement in space-related events and initiatives.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siyaya - oRIDGEnal",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
