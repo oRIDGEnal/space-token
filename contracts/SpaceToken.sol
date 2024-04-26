@@ -25,6 +25,10 @@ contract SpaceToken is
         Ownable(initialOwner)
     {
         _mint(msg.sender, 50000000 * (10 ** decimals()));
+        require(
+            cap >= 50000000 * (10 ** decimals()),
+            "Cap is less than required initial mint amount"
+        );
     }
 
     function pause() public onlyOwner {
