@@ -9,5 +9,5 @@
     "types": ["node"]
   },
   "include": ["./scripts", "./test"],
-  "files": ["./hardhat.config.ts"]
+  "files": ["./truffle-config.js"]
 }
