@@ -1,5 +1,19 @@
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+require("dotenv").config();
+
 module.exports = {
   networks: {
+    amoy: {
+      provider: () =>
+        new HDWalletProvider(
+          process.env.MNEMONIC,
+          `https://polygon-amoy.infura.io/v3/${process.env.INFURA_PROJECT_ID}` // Infura project ID
+        ),
+      network_id: 80002, // Mumbai's network id
+      confirmations: 2,
+      timeoutBlocks: 200,
+      skipDryRun: true,
+    },
     development: {
       host: "127.0.0.1",
       port: 9545, // Default port for Ganache; adjust if using a different port

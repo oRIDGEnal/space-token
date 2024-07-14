@@ -1,7 +1,7 @@
 {
   "name": "space-token",
   "version": "1.0.0",
-  "description": "SpaceToken (SCTX) is a meme cryptocurrency designed to celebrate and unite space enthusiasts and community members in Space City, Texas. It leverages blockchain technology to create a fun, engaging, and community-driven token for transactions, rewards, and community engagement in space-related events and initiatives.",
+  "description": "SpaceCoin (SCTX) is a meme cryptocurrency designed to celebrate and unite space enthusiasts and community members in Space City, Texas. It leverages blockchain technology to create a fun, engaging, and community-driven token for transactions, rewards, and community engagement in space-related events and initiatives.",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2",
+    "@truffle/hdwallet-provider": "^2.1.15",
     "solc": "^0.8.20"
   }
 }
