@@ -16,8 +16,8 @@ module.exports = {
     },
     development: {
       host: "127.0.0.1",
-      port: 9545, // Default port for Ganache; adjust if using a different port
-      network_id: "*", // Connect to any network
+      port: 7545, // Default port for Ganache; adjust if using a different port
+      network_id: "5777", // Connect to any network
     },
   },
   // Configure your compilers
